@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
 * {
     padding: 0px;
     margin: 0px;
@@ -6,6 +8,7 @@
 
 html, body {
     height: 100%;
+    font-family: 'VT323', monospace ;
 }
 
 body {
@@ -14,6 +17,11 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 5vh;
+    background-color: green;
+}
+
+h1 {
+    font-size: 75px;
 }
 
 #container {
@@ -21,5 +29,24 @@ body {
     flex-direction: column;
     height: 70vh;
     width: 70vh;
-    border: 1px solid black;
+    border-bottom: 20px inset rgba(0,0,0,.5);
+	border-left: 20px inset rgba(0,0,0,.5);
+	border-right: 20px inset rgba(255,255,255,.5);
+	border-top: 20px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+}
+
+button {
+    background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+    padding: .5rem;
+    &:hover {
+		background: #BCBCBC;
+	}
 }
