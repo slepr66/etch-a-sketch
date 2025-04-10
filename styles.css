@@ -46,6 +46,7 @@ button {
 	box-sizing: border-box;
 	color: white;
     padding: .5rem;
+    font-size: 20px;
     &:hover {
 		background: #BCBCBC;
 	}
